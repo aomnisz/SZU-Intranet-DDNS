@@ -1,0 +1,17 @@
+{
+  "name": "szu-intranet-ddns",
+  "version": "1.0.0",
+  "description": "一个适用于深大内网的DDNS工具（仅支持DNSPod）",
+  "repository": "github:aomnisz/szu-intranet-ddns",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["szu", "ddns"],
+  "author": "aomnisz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "tencentcloud-sdk-nodejs": "^4.0.198"
+  }
+}
